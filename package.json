@@ -1,0 +1,15 @@
+{
+  "name": "xiaozhi-integration",
+  "version": "1.0.0",
+  "description": "Complete integration between xiaozhi-esp32-server-golang and the OpenClaw Gateway.",
+  "main": "generate-token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
+}

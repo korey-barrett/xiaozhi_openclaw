@@ -1,0 +1,38 @@
+{
+  "name": "@xiaozhi_openclaw/xiaozhi",
+  "version": "0.0.6",
+  "description": "OpenClaw channel for XiaoZhi ESP32 Server WebSocket integration",
+  "type": "module",
+  "main": "./index.ts",
+  "bin": {
+    "xiaozhi-installer": "./cli.mjs"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "*.ts",
+    "cli.mjs",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "keywords": [
+    "openclaw",
+    "channel",
+    "xiaozhi",
+    "esp32",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
